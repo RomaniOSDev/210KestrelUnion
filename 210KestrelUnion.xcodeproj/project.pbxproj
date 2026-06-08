@@ -3,33 +3,101 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		301FD06D2FD58C940019443E /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0302FD58C940019443E /* ShakeEffect.swift */; };
+		301FD06E2FD58C940019443E /* NotificationName+DataReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0322FD58C940019443E /* NotificationName+DataReset.swift */; };
+		301FD06F2FD58C940019443E /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0342FD58C940019443E /* Achievement.swift */; };
+		301FD0702FD58C940019443E /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0352FD58C940019443E /* AppLinks.swift */; };
+		301FD0712FD58C940019443E /* BreathingPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0362FD58C940019443E /* BreathingPreset.swift */; };
+		301FD0722FD58C940019443E /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0372FD58C940019443E /* Reflection.swift */; };
+		301FD0732FD58C940019443E /* WeeklyInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0382FD58C940019443E /* WeeklyInsight.swift */; };
+		301FD0742FD58C940019443E /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD03A2FD58C940019443E /* FeedbackService.swift */; };
+		301FD0752FD58C940019443E /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD03C2FD58C940019443E /* AppStorage.swift */; };
+		301FD0762FD58C940019443E /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD03F2FD58C940019443E /* AchievementsView.swift */; };
+		301FD0772FD58C940019443E /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0412FD58C940019443E /* AffirmationsView.swift */; };
+		301FD0782FD58C940019443E /* AffirmationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0422FD58C940019443E /* AffirmationsViewModel.swift */; };
+		301FD0792FD58C940019443E /* CalmFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0442FD58C940019443E /* CalmFocusView.swift */; };
+		301FD07A2FD58C940019443E /* CalmFocusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0452FD58C940019443E /* CalmFocusViewModel.swift */; };
+		301FD07B2FD58C940019443E /* WellnessHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0462FD58C940019443E /* WellnessHubView.swift */; };
+		301FD07C2FD58C940019443E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0482FD58C940019443E /* HomeView.swift */; };
+		301FD07D2FD58C940019443E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0492FD58C940019443E /* HomeViewModel.swift */; };
+		301FD07E2FD58C940019443E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD04B2FD58C940019443E /* OnboardingView.swift */; };
+		301FD07F2FD58C940019443E /* EmotionalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD04D2FD58C940019443E /* EmotionalProgressView.swift */; };
+		301FD0802FD58C940019443E /* EmotionalProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD04E2FD58C940019443E /* EmotionalProgressViewModel.swift */; };
+		301FD0812FD58C940019443E /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0502FD58C940019443E /* ReflectionView.swift */; };
+		301FD0822FD58C940019443E /* ReflectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0512FD58C940019443E /* ReflectionViewModel.swift */; };
+		301FD0832FD58C940019443E /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0532FD58C940019443E /* PrivacyPolicyView.swift */; };
+		301FD0842FD58C940019443E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0542FD58C940019443E /* SettingsView.swift */; };
+		301FD0852FD58C940019443E /* AchievementBannerCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0572FD58C940019443E /* AchievementBannerCenter.swift */; };
+		301FD0862FD58C940019443E /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0582FD58C940019443E /* AppBackgroundView.swift */; };
+		301FD0872FD58C940019443E /* AppComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0592FD58C940019443E /* AppComponents.swift */; };
+		301FD0882FD58C940019443E /* AppFormStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05A2FD58C940019443E /* AppFormStyles.swift */; };
+		301FD0892FD58C940019443E /* AppIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05B2FD58C940019443E /* AppIllustrationView.swift */; };
+		301FD08A2FD58C940019443E /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05C2FD58C940019443E /* Markdown.swift */; };
+		301FD08B2FD58C940019443E /* PressScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05D2FD58C940019443E /* PressScaleButtonStyle.swift */; };
+		301FD08C2FD58C940019443E /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05E2FD58C940019443E /* SuccessCheckmarkOverlay.swift */; };
+		301FD08D2FD58C940019443E /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD05F2FD58C940019443E /* TabRouter.swift */; };
+		301FD08E2FD58C940019443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0612FD58C940019443E /* AppDelegate.swift */; };
+		301FD08F2FD58C940019443E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD0632FD58C940019443E /* ContentView.swift */; };
+		301FD0902FD58C940019443E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD06A2FD58C940019443E /* SceneDelegate.swift */; };
+		301FD0912FD58C940019443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FD06B2FD58C940019443E /* ViewController.swift */; };
+		301FD0922FD58C940019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FD0622FD58C940019443E /* Assets.xcassets */; };
+		301FD0942FD58C940019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FD0662FD58C940019443E /* LaunchScreen.storyboard */; };
+		301FD0952FD58C940019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FD0682FD58C940019443E /* Main.storyboard */; };
+		301FD0962FD58C940019443E /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 301FD0692FD58C940019443E /* privacy_policy.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0B0ADE2FFB40FCBAA57E0FBC /* Pods-210KestrelUnion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-210KestrelUnion.release.xcconfig"; path = "Target Support Files/Pods-210KestrelUnion/Pods-210KestrelUnion.release.xcconfig"; sourceTree = "<group>"; };
 		301FCF192FD4A4770019443E /* 210KestrelUnion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 210KestrelUnion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301FD0302FD58C940019443E /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		301FD0322FD58C940019443E /* NotificationName+DataReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+DataReset.swift"; sourceTree = "<group>"; };
+		301FD0342FD58C940019443E /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		301FD0352FD58C940019443E /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		301FD0362FD58C940019443E /* BreathingPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingPreset.swift; sourceTree = "<group>"; };
+		301FD0372FD58C940019443E /* Reflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
+		301FD0382FD58C940019443E /* WeeklyInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyInsight.swift; sourceTree = "<group>"; };
+		301FD03A2FD58C940019443E /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		301FD03C2FD58C940019443E /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		301FD03F2FD58C940019443E /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		301FD0412FD58C940019443E /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
+		301FD0422FD58C940019443E /* AffirmationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsViewModel.swift; sourceTree = "<group>"; };
+		301FD0442FD58C940019443E /* CalmFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmFocusView.swift; sourceTree = "<group>"; };
+		301FD0452FD58C940019443E /* CalmFocusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmFocusViewModel.swift; sourceTree = "<group>"; };
+		301FD0462FD58C940019443E /* WellnessHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessHubView.swift; sourceTree = "<group>"; };
+		301FD0482FD58C940019443E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		301FD0492FD58C940019443E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		301FD04B2FD58C940019443E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		301FD04D2FD58C940019443E /* EmotionalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalProgressView.swift; sourceTree = "<group>"; };
+		301FD04E2FD58C940019443E /* EmotionalProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalProgressViewModel.swift; sourceTree = "<group>"; };
+		301FD0502FD58C940019443E /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
+		301FD0512FD58C940019443E /* ReflectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionViewModel.swift; sourceTree = "<group>"; };
+		301FD0532FD58C940019443E /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		301FD0542FD58C940019443E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		301FD0572FD58C940019443E /* AchievementBannerCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerCenter.swift; sourceTree = "<group>"; };
+		301FD0582FD58C940019443E /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		301FD0592FD58C940019443E /* AppComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponents.swift; sourceTree = "<group>"; };
+		301FD05A2FD58C940019443E /* AppFormStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFormStyles.swift; sourceTree = "<group>"; };
+		301FD05B2FD58C940019443E /* AppIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIllustrationView.swift; sourceTree = "<group>"; };
+		301FD05C2FD58C940019443E /* Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
+		301FD05D2FD58C940019443E /* PressScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressScaleButtonStyle.swift; sourceTree = "<group>"; };
+		301FD05E2FD58C940019443E /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		301FD05F2FD58C940019443E /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		301FD0612FD58C940019443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		301FD0622FD58C940019443E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301FD0632FD58C940019443E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		301FD0642FD58C940019443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301FD0652FD58C940019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301FD0672FD58C940019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301FD0692FD58C940019443E /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		301FD06A2FD58C940019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		301FD06B2FD58C940019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FF6FE622B072BE16AAB29B1 /* Pods_210KestrelUnion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_210KestrelUnion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E6FC40D0FC56B6C188D2C1 /* Pods-210KestrelUnion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-210KestrelUnion.debug.xcconfig"; path = "Target Support Files/Pods-210KestrelUnion/Pods-210KestrelUnion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		301FCF2B2FD4A4780019443E /* Exceptions for "210KestrelUnion" folder in "210KestrelUnion" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 301FCF182FD4A4770019443E /* 210KestrelUnion */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		301FCF1B2FD4A4770019443E /* 210KestrelUnion */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				301FCF2B2FD4A4780019443E /* Exceptions for "210KestrelUnion" folder in "210KestrelUnion" target */,
-			);
-			path = 210KestrelUnion;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		301FCF162FD4A4770019443E /* Frameworks */ = {
@@ -45,8 +113,10 @@
 		301FCF102FD4A4770019443E = {
 			isa = PBXGroup;
 			children = (
-				301FCF1B2FD4A4770019443E /* 210KestrelUnion */,
+				301FD06C2FD58C940019443E /* 210KestrelUnion */,
 				301FCF1A2FD4A4770019443E /* Products */,
+				3752393652E7DC7CBE056EAF /* Pods */,
+				3926ADA9AC0361199C733CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +128,200 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		301FD0312FD58C940019443E /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0302FD58C940019443E /* ShakeEffect.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		301FD0332FD58C940019443E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0322FD58C940019443E /* NotificationName+DataReset.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		301FD0392FD58C940019443E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0342FD58C940019443E /* Achievement.swift */,
+				301FD0352FD58C940019443E /* AppLinks.swift */,
+				301FD0362FD58C940019443E /* BreathingPreset.swift */,
+				301FD0372FD58C940019443E /* Reflection.swift */,
+				301FD0382FD58C940019443E /* WeeklyInsight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		301FD03B2FD58C940019443E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				301FD03A2FD58C940019443E /* FeedbackService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		301FD03D2FD58C940019443E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				301FD03C2FD58C940019443E /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		301FD03E2FD58C940019443E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0312FD58C940019443E /* Effects */,
+				301FD0332FD58C940019443E /* Extensions */,
+				301FD0392FD58C940019443E /* Models */,
+				301FD03B2FD58C940019443E /* Services */,
+				301FD03D2FD58C940019443E /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		301FD0402FD58C940019443E /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				301FD03F2FD58C940019443E /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		301FD0432FD58C940019443E /* Affirmations */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0412FD58C940019443E /* AffirmationsView.swift */,
+				301FD0422FD58C940019443E /* AffirmationsViewModel.swift */,
+			);
+			path = Affirmations;
+			sourceTree = "<group>";
+		};
+		301FD0472FD58C940019443E /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0442FD58C940019443E /* CalmFocusView.swift */,
+				301FD0452FD58C940019443E /* CalmFocusViewModel.swift */,
+				301FD0462FD58C940019443E /* WellnessHubView.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		301FD04A2FD58C940019443E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0482FD58C940019443E /* HomeView.swift */,
+				301FD0492FD58C940019443E /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		301FD04C2FD58C940019443E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				301FD04B2FD58C940019443E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		301FD04F2FD58C940019443E /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				301FD04D2FD58C940019443E /* EmotionalProgressView.swift */,
+				301FD04E2FD58C940019443E /* EmotionalProgressViewModel.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		301FD0522FD58C940019443E /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0502FD58C940019443E /* ReflectionView.swift */,
+				301FD0512FD58C940019443E /* ReflectionViewModel.swift */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
+		301FD0552FD58C940019443E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0532FD58C940019443E /* PrivacyPolicyView.swift */,
+				301FD0542FD58C940019443E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		301FD0562FD58C940019443E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0402FD58C940019443E /* Achievements */,
+				301FD0432FD58C940019443E /* Affirmations */,
+				301FD0472FD58C940019443E /* Focus */,
+				301FD04A2FD58C940019443E /* Home */,
+				301FD04C2FD58C940019443E /* Onboarding */,
+				301FD04F2FD58C940019443E /* Progress */,
+				301FD0522FD58C940019443E /* Reflection */,
+				301FD0552FD58C940019443E /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		301FD0602FD58C940019443E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				301FD0572FD58C940019443E /* AchievementBannerCenter.swift */,
+				301FD0582FD58C940019443E /* AppBackgroundView.swift */,
+				301FD0592FD58C940019443E /* AppComponents.swift */,
+				301FD05A2FD58C940019443E /* AppFormStyles.swift */,
+				301FD05B2FD58C940019443E /* AppIllustrationView.swift */,
+				301FD05C2FD58C940019443E /* Markdown.swift */,
+				301FD05D2FD58C940019443E /* PressScaleButtonStyle.swift */,
+				301FD05E2FD58C940019443E /* SuccessCheckmarkOverlay.swift */,
+				301FD05F2FD58C940019443E /* TabRouter.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		301FD06C2FD58C940019443E /* 210KestrelUnion */ = {
+			isa = PBXGroup;
+			children = (
+				301FD03E2FD58C940019443E /* Core */,
+				301FD0562FD58C940019443E /* Features */,
+				301FD0602FD58C940019443E /* Shared */,
+				301FD0612FD58C940019443E /* AppDelegate.swift */,
+				301FD0622FD58C940019443E /* Assets.xcassets */,
+				301FD0632FD58C940019443E /* ContentView.swift */,
+				301FD0642FD58C940019443E /* Info.plist */,
+				301FD0662FD58C940019443E /* LaunchScreen.storyboard */,
+				301FD0682FD58C940019443E /* Main.storyboard */,
+				301FD0692FD58C940019443E /* privacy_policy.md */,
+				301FD06A2FD58C940019443E /* SceneDelegate.swift */,
+				301FD06B2FD58C940019443E /* ViewController.swift */,
+			);
+			path = 210KestrelUnion;
+			sourceTree = "<group>";
+		};
+		3752393652E7DC7CBE056EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E6FC40D0FC56B6C188D2C1 /* Pods-210KestrelUnion.debug.xcconfig */,
+				0B0ADE2FFB40FCBAA57E0FBC /* Pods-210KestrelUnion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3926ADA9AC0361199C733CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6FE622B072BE16AAB29B1 /* Pods_210KestrelUnion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301FCF2C2FD4A4780019443E /* Build configuration list for PBXNativeTarget "210KestrelUnion" */;
 			buildPhases = (
+				8C99B0B391D19CDE120E571D /* [CP] Check Pods Manifest.lock */,
 				301FCF152FD4A4770019443E /* Sources */,
 				301FCF162FD4A4770019443E /* Frameworks */,
 				301FCF172FD4A4770019443E /* Resources */,
@@ -73,12 +338,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				301FCF1B2FD4A4770019443E /* 210KestrelUnion */,
-			);
 			name = 210KestrelUnion;
-			packageProductDependencies = (
-			);
 			productName = 210KestrelUnion;
 			productReference = 301FCF192FD4A4770019443E /* 210KestrelUnion.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +359,7 @@
 				};
 			};
 			buildConfigurationList = 301FCF142FD4A4770019443E /* Build configuration list for PBXProject "210KestrelUnion" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +367,6 @@
 				Base,
 			);
 			mainGroup = 301FCF102FD4A4770019443E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 301FCF1A2FD4A4770019443E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +381,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FD0922FD58C940019443E /* Assets.xcassets in Resources */,
+				301FD0942FD58C940019443E /* LaunchScreen.storyboard in Resources */,
+				301FD0952FD58C940019443E /* Main.storyboard in Resources */,
+				301FD0962FD58C940019443E /* privacy_policy.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C99B0B391D19CDE120E571D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-210KestrelUnion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301FCF152FD4A4770019443E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FD06D2FD58C940019443E /* ShakeEffect.swift in Sources */,
+				301FD06E2FD58C940019443E /* NotificationName+DataReset.swift in Sources */,
+				301FD06F2FD58C940019443E /* Achievement.swift in Sources */,
+				301FD0702FD58C940019443E /* AppLinks.swift in Sources */,
+				301FD0712FD58C940019443E /* BreathingPreset.swift in Sources */,
+				301FD0722FD58C940019443E /* Reflection.swift in Sources */,
+				301FD0732FD58C940019443E /* WeeklyInsight.swift in Sources */,
+				301FD0742FD58C940019443E /* FeedbackService.swift in Sources */,
+				301FD0752FD58C940019443E /* AppStorage.swift in Sources */,
+				301FD0762FD58C940019443E /* AchievementsView.swift in Sources */,
+				301FD0772FD58C940019443E /* AffirmationsView.swift in Sources */,
+				301FD0782FD58C940019443E /* AffirmationsViewModel.swift in Sources */,
+				301FD0792FD58C940019443E /* CalmFocusView.swift in Sources */,
+				301FD07A2FD58C940019443E /* CalmFocusViewModel.swift in Sources */,
+				301FD07B2FD58C940019443E /* WellnessHubView.swift in Sources */,
+				301FD07C2FD58C940019443E /* HomeView.swift in Sources */,
+				301FD07D2FD58C940019443E /* HomeViewModel.swift in Sources */,
+				301FD07E2FD58C940019443E /* OnboardingView.swift in Sources */,
+				301FD07F2FD58C940019443E /* EmotionalProgressView.swift in Sources */,
+				301FD0802FD58C940019443E /* EmotionalProgressViewModel.swift in Sources */,
+				301FD0812FD58C940019443E /* ReflectionView.swift in Sources */,
+				301FD0822FD58C940019443E /* ReflectionViewModel.swift in Sources */,
+				301FD0832FD58C940019443E /* PrivacyPolicyView.swift in Sources */,
+				301FD0842FD58C940019443E /* SettingsView.swift in Sources */,
+				301FD0852FD58C940019443E /* AchievementBannerCenter.swift in Sources */,
+				301FD0862FD58C940019443E /* AppBackgroundView.swift in Sources */,
+				301FD0872FD58C940019443E /* AppComponents.swift in Sources */,
+				301FD0882FD58C940019443E /* AppFormStyles.swift in Sources */,
+				301FD0892FD58C940019443E /* AppIllustrationView.swift in Sources */,
+				301FD08A2FD58C940019443E /* Markdown.swift in Sources */,
+				301FD08B2FD58C940019443E /* PressScaleButtonStyle.swift in Sources */,
+				301FD08C2FD58C940019443E /* SuccessCheckmarkOverlay.swift in Sources */,
+				301FD08D2FD58C940019443E /* TabRouter.swift in Sources */,
+				301FD08E2FD58C940019443E /* AppDelegate.swift in Sources */,
+				301FD08F2FD58C940019443E /* ContentView.swift in Sources */,
+				301FD0902FD58C940019443E /* SceneDelegate.swift in Sources */,
+				301FD0912FD58C940019443E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		301FD0662FD58C940019443E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FD0652FD58C940019443E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		301FD0682FD58C940019443E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FD0672FD58C940019443E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		301FCF2D2FD4A4780019443E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E6FC40D0FC56B6C188D2C1 /* Pods-210KestrelUnion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +492,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 210KestrelUnion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kestrel Union";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-10KestrelUnion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ste.k3str3l8n10n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		301FCF2E2FD4A4780019443E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0ADE2FFB40FCBAA57E0FBC /* Pods-210KestrelUnion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +533,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 210KestrelUnion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kestrel Union";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-10KestrelUnion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ste.k3str3l8n10n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

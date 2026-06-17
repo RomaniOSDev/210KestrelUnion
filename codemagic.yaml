@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "210KestrelUnion.xcworkspace"
           XCODE_SCHEME: "210KestrelUnion"
           BUNDLE_ID: "com.ste.k3str3l8n10n"
-          EXTENSION_BUNDLE_ID: "com.hal.dfrh80sl93s.NotificationServiceExtension"
+          EXTENSION_BUNDLE_ID: "com.ste.k3str3l8n10n.NotificationServiceExtension"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
